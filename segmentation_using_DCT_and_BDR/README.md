@@ -13,5 +13,5 @@ The resulting segmented image is shown below. It looks somewhat like a cheetah b
   <img src = "https://user-images.githubusercontent.com/4907348/209418150-bd1b1b32-cfd8-4f43-bc77-bef487ef0d02.png" width="330"/>  
 </p>
 
-## Project Report
+## Report
 [Sanchit Gupta, 'Image segmentation using DCT and Bayesian Decision Rule', ECE 271A, Course Homework, UCSD](https://github.com/sanchit3103/image_segmentation_using_statistical_learning/blob/main/segmentation_using_DCT_and_BDR/Report.pdf)
