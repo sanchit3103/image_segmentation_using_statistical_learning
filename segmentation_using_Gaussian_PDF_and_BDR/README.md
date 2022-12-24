@@ -2,8 +2,9 @@
 
 <p align="justify">
 The grayscale 'cheetah' image shown below is segmented into foreground and background using Maximum Likelihood (ML) estimate, Gaussian PDF and Bayesian Decision Rule (BDR). It was assumed that the class-conditional densities are multivariate Gaussians of 64 dimensions. Using the training data, the ML estimates for the prior probabilities of two classes and the parameters of class conditionals under the Gaussian assumption were computed. The plots with marginal densities of the two classes for each of 64 features were created and by visual inspection, the best 8 features and worst 8 features were found for classification purposes. 
-
-We viewed the image as a collection of 8x8 blocks. For each block, DCT was computed which provided us with an array of 8x8 frequency coefficients. Each 8x8 array was converted into a 64 dimensional vector following the zig-zag pattern. The estimates calculated earlier for all 64 features and best 8 features were given to the BDR following Gaussian PDF to estimate the actual class for each block.
+</p>
+<p align="justify">
+We viewed the image as a collection of 8x8 blocks. For each block, DCT was computed which provided us with an array of 8x8 frequency coefficients. Each 8x8 array was converted into a 64 dimensional vector following the zig-zag pattern. The estimates calculated earlier for all 64 features and best 8 features were given to BDR following Gaussian PDF to estimate the actual class for each block.
 </p>
 
 <p align="center">
